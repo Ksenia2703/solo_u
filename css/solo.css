@@ -1,0 +1,3050 @@
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tinos&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  /*height: 100%;*/
+  /*width: 100%;*/
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/*ul li{list-style: none;}*/
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  cursor: default;
+}
+
+.icon-watsapp {
+  position: fixed;
+  z-index: 15;
+  top: 80%;
+  right: 40px;
+}
+
+.top_line {
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 45px 0px 25px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-align: center;
+  border-bottom: 2px solid #e8e8e8;
+}
+
+.common_search_logo_icon {
+  width: 80%;
+  background-color: #f8f8f8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.search {
+  width: 30%;
+}
+
+.search-fm {
+  font-size: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 30px;
+  width: 100%;
+  background-color: transparent;
+}
+
+.search-inp {
+  font-size: 15px;
+  width: 70%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  margin-left: 2%;
+  border: none;
+  background-color: transparent;
+  padding-bottom: 6%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+:focus::-moz-placeholder {
+  color: transparent;
+}
+
+:focus:-moz-placeholder {
+  color: transparent;
+}
+
+:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+.icons {
+  background-color: transparent;
+  padding-bottom: 6%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-top: 5%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.icons:hover {
+  cursor: pointer;
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+.logo {
+  font-size: 55px;
+  font-family: "Yeseva One";
+  font-weight: 600;
+  width: 35%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.logo:hover {
+  cursor: default;
+}
+
+.common-shop-lk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 15%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.shopping-icon {
+  background-color: transparent;
+  padding-bottom: 6%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-top: 5%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.user-lk {
+  background-color: transparent;
+  padding-bottom: 6%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-top: 5%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.icon-shopping {
+  width: 40%;
+  height: 55%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: auto 0px;
+}
+
+.icon-shopping:hover {
+  cursor: pointer;
+}
+
+.icon-user-lk {
+  width: 40%;
+  height: 55%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: auto 0px;
+}
+
+.icon-user-lk:hover {
+  cursor: pointer;
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+.tom-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f8f8f8;
+}
+
+.tom_menu {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.top-menu {
+  list-style-type: none;
+  font-family: "Playfair Display";
+  font-size: 15px;
+  font-weight: 600;
+  padding: 20px 20px;
+  display: block;
+  position: relative;
+  white-space: nowrap;
+}
+
+.top-menu:hover {
+  cursor: default;
+}
+
+.list-sundresses {
+  list-style-type: none;
+}
+
+.top-menu:hover {
+  cursor: pointer;
+}
+
+.common-drop-down-menu {
+  position: absolute;
+  top: 55px;
+  left: 0px;
+  background-color: #f8f8f8;
+  color: black;
+  border-right: 1px solid #bcc4c4;
+  border-left: 1px solid #bcc4c4;
+  border-bottom: 1px solid #bcc4c4;
+  -webkit-box-shadow: 2px 2px 2px 0px #a3c2c2;
+          box-shadow: 2px 2px 2px 0px #a3c2c2;
+  font-size: 15px;
+  text-align: left;
+  z-index: 12;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 200px;
+  display: none;
+}
+
+.top-menu:hover .common-drop-down-menu {
+  display: block;
+}
+
+.common-drop-down-menu li {
+  margin-bottom: 7px;
+  margin: 8px 15px 20px 12px;
+}
+
+.common-drop-down-menu li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.common_installment_plan {
+  width: 100%;
+  background-color: #e8dccf;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.common_installment_plan:hover {
+  cursor: pointer;
+}
+
+.installment_plan {
+  width: 56%;
+  font-family: "Playfair Display";
+  font-size: 18px;
+  padding: 1.5%;
+  text-align: end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.installment-plan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 35%;
+}
+
+.installment_plan_bt {
+  font-family: "Playfair Display";
+  border: 1px solid #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 30px;
+  padding: 5px 23px;
+  background-color: transparent;
+  height: 70%;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.installment_plan_bt:hover {
+  cursor: pointer;
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+.common-banner {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 600px;
+  position: relative;
+}
+
+.left-banner {
+  width: 50%;
+  background-image: url(../img/foto1.jpeg);
+  height: 100%;
+  background-size: cover;
+}
+
+.right-banner {
+  width: 50%;
+  background-image: url(../img/foto2.jpeg);
+  height: 100%;
+  background-size: cover;
+}
+
+.summer-mood-block {
+  position: absolute;
+  width: 524px;
+  height: 338px;
+  background: rgba(231, 231, 231, 0.4);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border-radius: 10px;
+  z-index: 11;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.summer-mood-title {
+  font-family: 'Playfair Display';
+  font-size: 40px;
+  margin-top: 70px;
+  margin-bottom: 22px;
+  font-weight: 600;
+}
+
+.new-collection {
+  margin: 9% 0px;
+  font-family: 'Playfair Display';
+  font-size: 18px;
+  letter-spacing: 5px;
+}
+
+.bt-catalog {
+  font-family: "Playfair Display";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 30px;
+  padding: 5px 35px;
+  background-color: white;
+  font-size: 15px;
+  letter-spacing: 3px;
+}
+
+.bt-catalog span {
+  font-size: 27px;
+  margin-left: 12px;
+}
+
+.common-dresses-sale {
+  width: 100%;
+  height: 500px;
+  background-color: #f8f8f8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.dress-dv {
+  height: 100%;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.foto3 {
+  max-width: 85%;
+  max-height: 85%;
+}
+
+.sale-dv {
+  height: 100%;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.foto4 {
+  max-width: 85%;
+  max-height: 85%;
+}
+
+.matte-finish-dress {
+  position: absolute;
+  width: 72%;
+  height: 110px;
+  -webkit-backdrop-filter: blur(30px);
+          backdrop-filter: blur(30px);
+  border-radius: 15px;
+  bottom: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.txt-matte-finish-dress {
+  font-family: 'Yeseva One';
+  font-size: 25px;
+  width: 50%;
+  letter-spacing: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.txt-matte-finish-dress:hover {
+  cursor: default;
+}
+
+.dress-catalog {
+  font-family: 'Tinos';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 30px;
+  padding: 5px 25px;
+  background-color: white;
+  font-size: 15px;
+  letter-spacing: 3px;
+  height: 45%;
+}
+
+.dress-catalog span {
+  font-size: 27px;
+  margin-left: 12px;
+}
+
+.matte-finish-dress {
+  position: absolute;
+  width: 72%;
+  height: 110px;
+  -webkit-backdrop-filter: blur(30px);
+          backdrop-filter: blur(30px);
+  border-radius: 15px;
+  bottom: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.common-choice {
+  width: 100%;
+  background-color: #f8f8f8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.choice {
+  font-family: 'Yeseva One';
+  padding: 40px 0px;
+  font-size: 30px;
+}
+
+.common-slider-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f8f8f8;
+  width: 100%;
+  padding-bottom: 70px;
+}
+
+.common-card {
+  width: 20%;
+  margin: 0px 15px;
+}
+
+.slider-img {
+  max-width: 100%;
+}
+
+.new1 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 0px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.new1-txt {
+  font-size: 25px;
+  background-color: #ddd8d2;
+  padding: 5px;
+}
+
+.new-dress {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5px 0px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.new1-title {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Tinos';
+}
+
+.price1 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 0px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.price-txt {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5px 0px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 20px;
+  font-family: 'Tinos';
+}
+
+.common-dresses-sale2 {
+  width: 100%;
+  height: 600px;
+  background-color: #f8f8f8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.dress-dv2 {
+  height: 100%;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.foto3-2 {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.sale-dv2 {
+  height: 100%;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.foto4-2 {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.matte-finish-dress2 {
+  position: absolute;
+  width: 72%;
+  height: 110px;
+  -webkit-backdrop-filter: blur(30px);
+          backdrop-filter: blur(30px);
+  border-radius: 15px;
+  bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.txt-matte-finish-dress2 {
+  font-family: 'Yeseva One';
+  font-size: 25px;
+  width: 50%;
+  letter-spacing: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.txt-matte-finish-dress2:hover {
+  cursor: default;
+}
+
+.dress-catalog2 {
+  font-family: 'Tinos';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 30px;
+  padding: 5px 25px;
+  background-color: white;
+  font-size: 15px;
+  letter-spacing: 3px;
+  height: 45%;
+}
+
+.dress-catalog2 span {
+  font-size: 27px;
+  margin-left: 12px;
+}
+
+.matte-finish-dress2 {
+  position: absolute;
+  width: 72%;
+  height: 110px;
+  -webkit-backdrop-filter: blur(30px);
+          backdrop-filter: blur(30px);
+  border-radius: 15px;
+  bottom: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.common-collect-it {
+  width: 100%;
+  background-color: #f8f8f8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.common-collect-it:hover {
+  cursor: default;
+}
+
+.collect-it {
+  font-family: 'Yeseva One';
+  padding: 60px 0px;
+  font-size: 30px;
+}
+
+.common-photo-feed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  background-color: #f8f8f8;
+}
+
+.end-slider1 {
+  width: 23%;
+  margin: 0px 13px;
+}
+
+.end-slider1-img {
+  max-width: 100%;
+}
+
+.common-see-more {
+  width: 100%;
+  background-color: #f8f8f8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 30px 0px;
+}
+
+.see-more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 30px;
+  padding: 5px 25px;
+  background-color: transparent;
+  font-size: 18px;
+  letter-spacing: 3px;
+  height: 50px;
+  border: 1px solid  #000;
+}
+
+.see-more:hover {
+  cursor: pointer;
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.common-subscription-discount {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f2ede7;
+}
+
+.common-subscription-discount-500 {
+  width: 30%;
+}
+
+.subscription-discount-500-txt {
+  font-family: 'Yeseva One';
+  font-size: 23px;
+  padding: 30px 20px 30px 100px;
+  letter-spacing: 2px;
+}
+
+.find-out-first {
+  font-size: 16px;
+  font-family: 'Tinos';
+  padding: 0px 20px 40px 100px;
+  letter-spacing: 2px;
+  opacity: .5;
+}
+
+.common-your-mail {
+  width: 30%;
+}
+
+.common-your-mail-fm {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.sub-inp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #fff;
+  border-radius: 30px;
+  border: none;
+  font-size: 15px;
+  width: 70%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  margin-left: 2%;
+  border: none;
+  padding: 15px 60px 15px 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sub-submit {
+  margin-left: -44px;
+  font-size: 16px;
+  background: #000;
+  border-radius: 30px !important;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  width: 40%;
+}
+
+.subb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+.common-sub-mess {
+  width: 40%;
+  background-color: transparent;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 40px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sub-mess1 {
+  padding: 0 25px;
+  text-decoration: none;
+  height: 100%;
+}
+
+.common-footer-desktop {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 270px;
+  background-color: #f8f8f8;
+}
+
+.footer-desktop-logo {
+  font-size: 55px;
+  font-family: "Yeseva One";
+  font-weight: 600;
+  width: 40%;
+  margin: 50px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 25%;
+}
+
+.footer-desktop-logo:hover {
+  cursor: default;
+}
+
+.footer-desktop-logo:hover {
+  cursor: default;
+}
+
+.common-stores-and-customers {
+  width: 40%;
+  background-color: transparent;
+  margin: 50px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.common-shop {
+  width: 50%;
+  background-color: transparent;
+  margin-left: 20px;
+}
+
+.shop-title {
+  font-family: "Yeseva One";
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.li-catalog {
+  margin: 15px 0px;
+  list-style-type: none;
+  opacity: 0.5;
+  font-size: 17px;
+}
+
+.li-catalog:hover {
+  cursor: pointer;
+}
+
+.common-online-store {
+  width: 30%;
+  margin: 50px 0px 50px 70px;
+}
+
+.title-online-store {
+  font-family: "Yeseva One";
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.operating-mode {
+  opacity: 0.5;
+  font-size: 15px;
+  margin: 15px 0px;
+  font-family: "Yeseva One";
+}
+
+.contact-phone-number {
+  font-family: 'Tinos';
+  font-weight: 600;
+  font-size: 20px;
+  margin: 25px 0px;
+}
+
+.write-to-us {
+  text-decoration: underline;
+  font-size: 17px;
+  margin: 15px 0px;
+  font-family: 'Tinos';
+}
+
+body {
+  cursor: default;
+}
+
+.icon-watsapp {
+  position: fixed;
+  z-index: 15;
+  top: 80%;
+  right: 40px;
+}
+
+.scroll-top {
+  position: fixed;
+  z-index: 15;
+  top: 87%;
+  right: 40px;
+}
+
+.top_line {
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 45px 0px 25px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-align: center;
+  border-bottom: 2px solid #e8e8e8;
+}
+
+.common_search_logo_icon {
+  width: 80%;
+  background-color: #f8f8f8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.search {
+  width: 30%;
+}
+
+.search-fm {
+  font-size: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 30px;
+  width: 100%;
+  background-color: transparent;
+}
+
+.search-inp {
+  font-size: 15px;
+  width: 70%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  margin-left: 2%;
+  border: none;
+  background-color: transparent;
+  padding-bottom: 6%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+:focus::-moz-placeholder {
+  color: transparent;
+}
+
+:focus:-moz-placeholder {
+  color: transparent;
+}
+
+:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+.icons {
+  background-color: transparent;
+  padding-bottom: 6%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-top: 5%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.icons:hover {
+  cursor: pointer;
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+.logo {
+  font-size: 55px;
+  font-family: "Yeseva One";
+  font-weight: 600;
+  width: 35%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  white-space: nowrap;
+}
+
+.logo:hover {
+  cursor: default;
+}
+
+.common-shop-lk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 15%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.shopping-icon {
+  background-color: transparent;
+  padding-bottom: 6%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-top: 5%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.user-lk {
+  background-color: transparent;
+  padding-bottom: 6%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-top: 5%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.icon-shopping {
+  width: 40%;
+  height: 55%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: auto 0px;
+}
+
+.icon-shopping:hover {
+  cursor: pointer;
+}
+
+.icon-user-lk {
+  width: 40%;
+  height: 55%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: auto 0px;
+}
+
+.icon-user-lk:hover {
+  cursor: pointer;
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+.tom-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f8f8f8;
+}
+
+.tom_menu {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.top-menu {
+  list-style-type: none;
+  font-family: "Playfair Display";
+  font-size: 15px;
+  font-weight: 600;
+  padding: 20px 20px;
+  display: block;
+  position: relative;
+  white-space: nowrap;
+}
+
+.top-menu:hover {
+  cursor: default;
+}
+
+.list-sundresses {
+  list-style-type: none;
+}
+
+.top-menu:hover {
+  cursor: pointer;
+}
+
+.common-drop-down-menu {
+  position: absolute;
+  top: 55px;
+  left: 0px;
+  background-color: #f8f8f8;
+  color: black;
+  border-right: 1px solid #bcc4c4;
+  border-left: 1px solid #bcc4c4;
+  border-bottom: 1px solid #bcc4c4;
+  -webkit-box-shadow: 2px 2px 2px 0px #a3c2c2;
+          box-shadow: 2px 2px 2px 0px #a3c2c2;
+  font-size: 15px;
+  text-align: left;
+  z-index: 12;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 200px;
+  display: none;
+}
+
+.top-menu:hover .common-drop-down-menu {
+  display: block;
+}
+
+.common-drop-down-menu li {
+  margin-bottom: 7px;
+  margin: 8px 15px 20px 12px;
+}
+
+.common-drop-down-menu li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.side-menu-and-product-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.common-list-of-categories {
+  padding: 0px 25px 0px 25px;
+  font-size: 19px;
+  background-color: #f8f8f8;
+  width: 20%;
+  font-family: "Playfair Display";
+}
+
+.common-list-of-categories li {
+  padding: 15px 0px 15px 0px;
+  list-style-type: none;
+}
+
+.common-list-of-categories li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.common-product-cards {
+  width: 100%;
+}
+
+.common-line-with-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.common-size-product span:hover {
+  cursor: pointer;
+}
+
+.common-first-card {
+  width: 30%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.img-card-1 {
+  max-width: 100%;
+}
+
+.common-new-block {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 356px;
+}
+
+.common-new-block:hover {
+  cursor: pointer;
+}
+
+.new-block {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 10px;
+  bottom: 150px;
+  background-color: #7070e0;
+}
+
+.arrow-block {
+  width: 0;
+  height: 0;
+  border-top: 17px solid transparent;
+  border-left: 13px solid #7070e0;
+  border-bottom: 17px solid transparent;
+  top: 388px;
+  left: 52px;
+}
+
+.product-name {
+  font-family: 'Tinos';
+  font-size: 22px;
+  padding: 20px 0px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.common-first-card {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.product-price {
+  padding-bottom: 20px;
+  font-size: 18px;
+  padding-left: 5px;
+}
+
+.common-size-product {
+  padding-bottom: 20px;
+}
+
+.size-product {
+  font-size: 16px;
+  margin: 15px 10px;
+}
+
+.common-footer-desktop {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 270px;
+  background-color: #f8f8f8;
+}
+
+.footer-desktop-logo {
+  font-size: 55px;
+  font-family: "Yeseva One";
+  font-weight: 600;
+  width: 40%;
+  margin: 50px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 25%;
+}
+
+.footer-desktop-logo:hover {
+  cursor: default;
+}
+
+.footer-desktop-logo:hover {
+  cursor: default;
+}
+
+.common-stores-and-customers {
+  width: 40%;
+  background-color: transparent;
+  margin: 50px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.common-shop {
+  width: 50%;
+  background-color: transparent;
+  margin-left: 20px;
+}
+
+.shop-title {
+  font-family: "Yeseva One";
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.li-catalog {
+  margin: 15px 0px;
+  list-style-type: none;
+  opacity: 0.5;
+  font-size: 17px;
+}
+
+.li-catalog:hover {
+  cursor: pointer;
+}
+
+.common-online-store {
+  width: 30%;
+  margin: 50px 0px 50px 70px;
+}
+
+.title-online-store {
+  font-family: "Yeseva One";
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.operating-mode {
+  opacity: 0.5;
+  font-size: 15px;
+  margin: 15px 0px;
+  font-family: "Yeseva One";
+}
+
+.contact-phone-number {
+  font-family: 'Tinos';
+  font-weight: 600;
+  font-size: 20px;
+  margin: 25px 0px;
+}
+
+.write-to-us {
+  text-decoration: underline;
+  font-size: 17px;
+  margin: 15px 0px;
+  font-family: 'Tinos';
+}
+
+body {
+  cursor: default;
+}
+
+.icon-watsapp {
+  position: fixed;
+  z-index: 15;
+  top: 80%;
+  right: 40px;
+}
+
+.scroll-top {
+  position: fixed;
+  z-index: 15;
+  top: 87%;
+  right: 40px;
+}
+
+.top_line {
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 45px 0px 25px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-align: center;
+  border-bottom: 2px solid #e8e8e8;
+}
+
+.common_search_logo_icon {
+  width: 80%;
+  background-color: #f8f8f8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.search {
+  width: 30%;
+}
+
+.search-fm {
+  font-size: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 30px;
+  width: 100%;
+  background-color: transparent;
+}
+
+.search-inp {
+  font-size: 15px;
+  width: 70%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  margin-left: 2%;
+  border: none;
+  background-color: transparent;
+  padding-bottom: 6%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+:focus::-moz-placeholder {
+  color: transparent;
+}
+
+:focus:-moz-placeholder {
+  color: transparent;
+}
+
+:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+.icons {
+  background-color: transparent;
+  padding-bottom: 6%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-top: 5%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.icons:hover {
+  cursor: pointer;
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+.logo {
+  font-size: 55px;
+  font-family: "Yeseva One";
+  font-weight: 600;
+  width: 35%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  white-space: nowrap;
+}
+
+.logo:hover {
+  cursor: default;
+}
+
+.common-shop-lk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 15%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.shopping-icon {
+  background-color: transparent;
+  padding-bottom: 6%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-top: 5%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.user-lk {
+  background-color: transparent;
+  padding-bottom: 6%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-top: 5%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.icon-shopping {
+  width: 40%;
+  height: 55%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: auto 0px;
+}
+
+.icon-shopping:hover {
+  cursor: pointer;
+}
+
+.icon-user-lk {
+  width: 40%;
+  height: 55%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: auto 0px;
+}
+
+.icon-user-lk:hover {
+  cursor: pointer;
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+.tom-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f8f8f8;
+}
+
+.tom_menu {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.top-menu {
+  list-style-type: none;
+  font-family: "Playfair Display";
+  font-size: 15px;
+  font-weight: 600;
+  padding: 20px 20px;
+  display: block;
+  position: relative;
+  white-space: nowrap;
+}
+
+.top-menu:hover {
+  cursor: default;
+}
+
+.list-sundresses {
+  list-style-type: none;
+}
+
+.top-menu:hover {
+  cursor: pointer;
+}
+
+.common-drop-down-menu {
+  position: absolute;
+  top: 55px;
+  left: 0px;
+  background-color: #f8f8f8;
+  color: black;
+  border-right: 1px solid #bcc4c4;
+  border-left: 1px solid #bcc4c4;
+  border-bottom: 1px solid #bcc4c4;
+  -webkit-box-shadow: 2px 2px 2px 0px #a3c2c2;
+          box-shadow: 2px 2px 2px 0px #a3c2c2;
+  font-size: 15px;
+  text-align: left;
+  z-index: 12;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 200px;
+  display: none;
+}
+
+.top-menu:hover .common-drop-down-menu {
+  display: block;
+}
+
+.common-drop-down-menu li {
+  margin-bottom: 7px;
+  margin: 8px 15px 20px 12px;
+}
+
+.common-drop-down-menu li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.side-menu-and-product-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.common-list-of-categories {
+  padding: 0px 25px 0px 25px;
+  font-size: 19px;
+  background-color: #f8f8f8;
+  width: 20%;
+  font-family: "Playfair Display";
+}
+
+.common-list-of-categories li {
+  padding: 15px 0px 15px 0px;
+  list-style-type: none;
+}
+
+.common-list-of-categories li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.common-foto-information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.common-foto-block {
+  width: 55%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.foto-block {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.foto-block img {
+  max-width: 100%;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+.foto-block-2 img {
+  max-width: 95%;
+  margin: 0px 10px 10px 10px;
+}
+
+.common-information-block {
+  width: 45%;
+  background-color: white;
+}
+
+.div-product-title-1 h1 {
+  font-family: "Playfair Display";
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.div-product-title-1 h2 {
+  color: #8b8f92;
+}
+
+.div-price-title {
+  margin: 20px 0px;
+}
+
+.div-price-title h1 {
+  color: #e4505c;
+  font-family: "Playfair Display";
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.div-price-title h2 {
+  color: #e4505c;
+  font-family: "Tinos";
+  font-size: 20px;
+  margin-top: 7px;
+}
+
+.common-material-title {
+  margin: 5px 0px;
+}
+
+.common-material-title p {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.common-size-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 20px 0px;
+}
+
+.common-left-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.size-title h1 {
+  font-family: "Tinos";
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.list-size {
+  margin: 20px 0px;
+}
+
+.list-size li:hover {
+  border: 2px solid black;
+}
+
+.list-size li {
+  list-style-type: none;
+  padding: 15px;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 2px;
+  font-size: 13px;
+  width: 45px;
+  text-align: center;
+}
+
+.list-size li {
+  cursor: pointer;
+}
+
+.common-right-block {
+  width: 50%;
+}
+
+.size-chart-title {
+  font-family: "Tinos";
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.common-right-block td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.common-right-block table {
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.common-add-to-cart {
+  padding: 35px 0px;
+  border-bottom: 1px solid #8b8b8b;
+  width: 90%;
+}
+
+.block-add-to-cart {
+  background-color: black;
+  width: 210px;
+  border-radius: 4px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.block-add-to-cart:hover {
+  background-color: #f8f8f8;
+}
+
+.text-add-to-cart {
+  font-family: "Tinos";
+  font-size: 13px;
+  font-weight: 600;
+  color: white;
+  padding: 15px 0px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.text-add-to-cart:hover {
+  color: black;
+}
+
+.parameters-models-in-the-photo h1 {
+  font-size: 18px;
+  font-family: "Tinos";
+  color: #424446;
+  font-weight: 600;
+  margin: 15px 0px;
+}
+
+.parameters-models-in-the-photo p {
+  font-size: 16px;
+  font-family: "Tinos";
+  color: #424446;
+  margin: 5px 0px;
+}
+
+.parameters-models-in-the-photo {
+  padding: 20px 0px 35px 0px;
+  border-bottom: 1px solid #8b8b8b;
+  width: 90%;
+}
+
+.common-delivery-block {
+  margin-top: 30px;
+  width: 90%;
+  padding-bottom: 60px;
+}
+
+.delivery-title-product span {
+  font-size: 16px;
+  font-family: "Tinos";
+  border-bottom: 1px dashed;
+  padding-bottom: 5px;
+}
+
+.delivery-in-moscow {
+  font-size: 16px;
+  font-family: "Tinos";
+  font-weight: 600;
+  display: none;
+}
+
+.delivery-title-product:hover {
+  cursor: pointer;
+}
+
+.delivery-in-moscow h1 {
+  font-weight: 600;
+  font-size: 15px;
+  font-family: "Tinos";
+  margin-top: 20px;
+}
+
+.show-info {
+  display: block;
+}
+
+.delivery-in-moscow p {
+  padding: 5px 0px;
+  font-size: 14px;
+}
+
+.payment-title {
+  margin-top: 20px;
+}
+
+.payment-title:hover {
+  cursor: pointer;
+}
+
+.payment-title span {
+  font-size: 16px;
+  font-family: "Tinos";
+  border-bottom: 1px dashed;
+  padding-bottom: 5px;
+}
+
+.payment-in-moscow {
+  font-size: 16px;
+  font-family: "Tinos";
+  font-weight: 600;
+  margin-top: 20px;
+  display: none;
+}
+
+.payment-in-moscow h1 {
+  font-weight: 600;
+  font-size: 15px;
+  font-family: "Tinos";
+  margin-top: 40px;
+}
+
+.payment-in-moscow {
+  padding: 5px 0px;
+  font-size: 14px;
+}
+
+.common-maybe-you-will-like-it {
+  border-top: 1px solid #000000;
+  margin-top: 20px;
+  margin-left: 40px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 94%;
+}
+
+.title-maybe-you-will-like-it {
+  font-size: 16px;
+  font-family: "Tinos";
+  font-weight: 600;
+  padding: 15px 30px;
+  background-color: white;
+  position: absolute;
+  top: -21px;
+  text-align: center;
+}
+
+.common-card-recomend {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.card-1-recomend {
+  width: 20%;
+  margin-top: 60px;
+}
+
+.card-1-recomend img {
+  max-width: 100%;
+}
+
+.title-card-1-recomend {
+  font-size: 14px;
+  font-family: "Tinos";
+  font-weight: 600;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.price-card-1-recomend {
+  font-size: 14px;
+  font-family: "Tinos";
+  margin: 0px 0px 20px 0px;
+  text-align: center;
+}
+
+.common-footer-desktop {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 270px;
+  background-color: #f8f8f8;
+}
+
+.footer-desktop-logo {
+  font-size: 55px;
+  font-family: "Yeseva One";
+  font-weight: 600;
+  width: 40%;
+  margin: 50px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 25%;
+}
+
+.footer-desktop-logo:hover {
+  cursor: default;
+}
+
+.footer-desktop-logo:hover {
+  cursor: default;
+}
+
+.common-stores-and-customers {
+  width: 40%;
+  background-color: transparent;
+  margin: 50px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.common-shop {
+  width: 50%;
+  background-color: transparent;
+  margin-left: 20px;
+}
+
+.shop-title {
+  font-family: "Yeseva One";
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.li-catalog {
+  margin: 15px 0px;
+  list-style-type: none;
+  opacity: 0.5;
+  font-size: 17px;
+}
+
+.li-catalog:hover {
+  cursor: pointer;
+}
+
+.common-online-store {
+  width: 30%;
+  margin: 50px 0px 50px 70px;
+}
+
+.title-online-store {
+  font-family: "Yeseva One";
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.operating-mode {
+  opacity: 0.5;
+  font-size: 15px;
+  margin: 15px 0px;
+  font-family: "Yeseva One";
+}
+
+.contact-phone-number {
+  font-family: 'Tinos';
+  font-weight: 600;
+  font-size: 20px;
+  margin: 25px 0px;
+}
+
+.write-to-us {
+  text-decoration: underline;
+  font-size: 17px;
+  margin: 15px 0px;
+  font-family: 'Tinos';
+}
+
+body {
+  cursor: default;
+}
+
+.common-entrance {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.entrance {
+  font-family: "Yeseva One";
+  font-size: 23px;
+  margin: 50px;
+  width: 100%;
+}
+
+.common-registration-form {
+  width: 100%;
+  margin-left: 50px;
+}
+
+.common-registration-form h1 {
+  font-family: 'Playfair Display';
+  font-size: 18px;
+}
+
+.common-mail-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-left: 50px;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.common-mail-block span {
+  font-family: 'Playfair Display';
+  font-size: 18px;
+  margin-top: 35px;
+  width: 100px;
+}
+
+.common-mail-block input {
+  width: 307px;
+  height: auto;
+  line-height: 34px;
+  font-size: 14px;
+  color: #232527;
+  background: transparent;
+  border: 1px solid #cbcdd1;
+  padding: 0px 0px 0px 10px;
+  margin-top: 25px;
+}
+
+.common-mail-block p {
+  margin-left: 30px;
+  border-bottom: 1px solid black;
+  font-family: 'Playfair Display';
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.common-mail-block p:hover {
+  cursor: pointer;
+}
+
+.mail-block-pass {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-left: 50px;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.mail-block-pass span {
+  font-family: 'Playfair Display';
+  font-size: 18px;
+  margin-top: 35px;
+  width: 100px;
+}
+
+.mail-block-pass p {
+  margin-left: 10px;
+  font-family: 'Playfair Display';
+  font-size: 16px;
+  outline: 0.5;
+}
+
+.common-enter {
+  padding: 35px 0px;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 50px;
+}
+
+.common-enter span {
+  margin-top: 35px;
+  width: 100px;
+}
+
+.block-enter {
+  background-color: #f8f8f8;
+  width: 130px;
+  border-radius: 4px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.block-enter:hover {
+  background-color: black;
+}
+
+.text-enter {
+  font-family: "Tinos";
+  font-size: 13px;
+  font-weight: 600;
+  color: black;
+  padding: 15px 0px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.text-enter:hover {
+  color: white;
+}
+
+.user-info-block {
+  margin-left: 50px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 100px;
+}
+
+.user-info-block h1 {
+  font-family: 'Playfair Display';
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.user-info-block p {
+  font-family: 'Playfair Display';
+  font-size: 20px;
+  padding-top: 8px;
+}
+
+.common-registration {
+  padding: 35px 0px;
+  width: 90%;
+}
+
+.block-registration {
+  background-color: black;
+  width: 230px;
+  border-radius: 4px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.block-registration:hover {
+  background-color: #f8f8f8;
+}
+
+.text-registration {
+  font-family: "Tinos";
+  font-size: 13px;
+  font-weight: 600;
+  color: white;
+  padding: 20px 0px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.text-registration:hover {
+  color: black;
+}
+
+body {
+  cursor: default;
+}
+
+.common-recovery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 50px;
+}
+
+.password-recovery {
+  font-family: "Yeseva One";
+  font-size: 20px;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.common-password-recovery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.common-password-recovery span {
+  font-family: 'Playfair Display';
+  font-size: 18px;
+  margin-top: 35px;
+  width: 100px;
+}
+
+.common-password-recovery input {
+  width: 307px;
+  height: auto;
+  line-height: 34px;
+  font-size: 14px;
+  color: #232527;
+  background: transparent;
+  border: 1px solid #cbcdd1;
+  padding: 0px 0px 0px 10px;
+  margin-top: 25px;
+}
+
+.common-send {
+  padding: 35px 0px;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.common-send span {
+  margin-top: 35px;
+  width: 100px;
+}
+
+.block-send {
+  background-color: #f8f8f8;
+  width: 150px;
+  border-radius: 4px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.block-send:hover {
+  background-color: black;
+}
+
+.text-send {
+  font-family: "Tinos";
+  font-size: 13px;
+  font-weight: 600;
+  color: black;
+  padding: 15px 0px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.text-send:hover {
+  color: white;
+}
+
+.common-authorization {
+  padding: 35px 0px;
+  width: 90%;
+}
+
+.block-authorization {
+  background-color: black;
+  width: 230px;
+  border-radius: 4px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.block-authorization:hover {
+  background-color: #f8f8f8;
+}
+
+.text-authorization {
+  font-family: "Tinos";
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  padding: 20px 0px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.text-authorization:hover {
+  color: black;
+}
+
+body {
+  cursor: default;
+}
+
+.common-about-the-store {
+  width: 100%;
+}
+
+.common-about-the-store h1 {
+  font-family: 'Playfair Display';
+  font-size: 24px;
+  background-color: #e8dccf;
+  text-align: center;
+  padding: 20px 0px;
+  margin-bottom: 20px;
+}
+
+.common-about-the-store p {
+  margin-left: 50px;
+  font-size: 18px;
+  padding: 5px 0px;
+  margin-right: 60px;
+  color: #525252;
+}
+
+.common-about-the-store h2 {
+  margin-left: 50px;
+  font-size: 20px;
+  padding: 15px 0px;
+  margin-right: 60px;
+}
+
+body {
+  cursor: default;
+}
+
+.common-payment {
+  width: 90%;
+}
+
+.common-payment h2 {
+  margin-left: 50px;
+  font-size: 20px;
+  padding: 15px 0px;
+  margin-right: 60px;
+}
+
+.common-payment p {
+  margin-left: 50px;
+  font-size: 18px;
+  padding: 5px 0px;
+  margin-right: 60px;
+  color: #525252;
+  line-height: 25px;
+}
+
+.payment-title-2 {
+  font-family: 'Playfair Display';
+  font-size: 24px;
+  background-color: #e8dccf;
+  text-align: center;
+  padding: 20px 0px;
+  margin-bottom: 20px;
+}
+
+body {
+  cursor: default;
+}
+
+.container-delivery {
+  width: 90%;
+  margin-bottom: 50px;
+}
+
+.container-delivery p {
+  margin-left: 50px;
+  font-size: 18px;
+  padding: 5px 0px;
+  margin-right: 60px;
+  color: #525252;
+  line-height: 25px;
+  width: 90%;
+}
+
+.container-delivery h2 {
+  margin-left: 50px;
+  font-size: 20px;
+  padding: 15px 0px;
+  margin-right: 60px;
+  width: 90%;
+}
+
+.container-delivery-2 h2 {
+  margin-left: 50px;
+  font-size: 20px;
+  padding: 15px 0px;
+  margin-right: 60px;
+  width: 90%;
+}
+
+.container-delivery-2 p {
+  width: 100%;
+  margin-left: 50px;
+  font-size: 18px;
+  padding: 5px 0px;
+  margin-right: 60px;
+  color: #525252;
+  line-height: 25px;
+  margin-left: 75px;
+  width: 90%;
+}
+
+.delivery-title {
+  font-family: 'Playfair Display';
+  font-size: 24px;
+  background-color: #e8dccf;
+  text-align: center;
+  padding: 20px 0px;
+  margin-bottom: 20px;
+}
+
+body {
+  cursor: default;
+}
+
+.cont-gl {
+  width: 100%;
+}
+
+.container-refund {
+  margin-bottom: 50px;
+}
+
+.container-refund p {
+  margin-left: 50px;
+  font-size: 18px;
+  padding: 5px 0px;
+  margin-right: 60px;
+  color: #525252;
+  line-height: 25px;
+  width: 90%;
+}
+
+.container-refund h2 {
+  margin-left: 50px;
+  font-size: 20px;
+  padding: 15px 0px;
+  margin-right: 60px;
+  width: 90%;
+}
+
+.refund-title-1 {
+  font-family: 'Playfair Display';
+  font-size: 24px;
+  background-color: #e8dccf;
+  text-align: center;
+  padding: 20px 0px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.container-refund-2 h2 {
+  margin-left: 50px;
+  font-size: 20px;
+  padding: 15px 0px;
+  margin-right: 60px;
+  width: 90%;
+}
+
+.container-refund-2 p {
+  width: 100%;
+  margin-left: 50px;
+  font-size: 18px;
+  padding: 5px 0px;
+  margin-right: 60px;
+  color: #525252;
+  line-height: 25px;
+  margin-left: 75px;
+  width: 90%;
+}
+
+.container-refund-2 span {
+  margin-left: 50px;
+  width: 100%;
+  font-size: 18px;
+  padding: 10px 0px;
+  margin-right: 60px;
+  color: black;
+}
+
+.download p {
+  font-weight: 600;
+  color: black;
+}
+
+body {
+  cursor: default;
+}
+
+.container-our-contacts {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.container-our-contacts p {
+  font-size: 18px;
+  padding: 5px 0px;
+  margin-right: 60px;
+  color: #2e2e2e;
+  line-height: 25px;
+  width: 90%;
+}
+
+.container-our-contacts h2 {
+  font-size: 20px;
+  padding: 15px 0px;
+  margin-right: 60px;
+  width: 90%;
+}
+
+.contact-item {
+  border-bottom: 1px solid #444444;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  width: 91%;
+}
+
+.our-contacts-title {
+  font-family: 'Playfair Display';
+  font-size: 24px;
+  background-color: #e8dccf;
+  text-align: center;
+  padding: 20px 0px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.number-1-contacts {
+  margin-left: 50px;
+  margin-top: 7px;
+}
+
+.border {
+  margin: 7px 0px 20px 50px;
+}
+
+.container-addresses-of-points {
+  width: 90%;
+}
+
+.addresses-of-points-title {
+  font-family: 'Playfair Display';
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 50px;
+  color: black;
+}
+
+.number-1-contacts-3 {
+  margin-left: 50px;
+  margin-top: 15px;
+  padding: 10px 3px;
+}
+
+.number-1-contacts-3 span {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.address-block-1 {
+  margin-left: 50px;
+}
+
+.address-block-1 h1 {
+  padding: 7px 0px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.address-block-1 p {
+  font-size: 18px;
+  margin-left: 0px;
+}
+
+.address-block-2 {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.address-block-2 h1 {
+  padding: 7px 0px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.address-block-2 p {
+  font-size: 18px;
+  margin-left: 0px;
+}
+
+.address-block-4 {
+  margin-left: 50px;
+}
+
+.address-block-4 p {
+  padding: 7px 0px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.address-block-4 h1 {
+  font-size: 18px;
+  margin-left: 0px;
+}

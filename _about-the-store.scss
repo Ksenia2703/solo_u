@@ -1,0 +1,57 @@
+body {
+ cursor: default;
+}
+
+// о магазине
+
+.common-about-the-store {
+    width: 100%;
+
+    & h1 {
+        font-family: 'Playfair Display';
+        font-size: 24px;
+        background-color: #e8dccf;
+        text-align: center;
+        padding: 20px 0px;
+        margin-bottom: 20px;
+    }
+
+    & p {
+        margin-left: 50px;
+        font-size: 18px;
+        padding: 5px 0px;
+        margin-right: 60px;
+        color: rgb(82, 82, 82);
+    }
+
+    & h2 {
+        margin-left: 50px;
+        font-size: 20px;
+        padding: 15px 0px;
+        margin-right: 60px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

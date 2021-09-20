@@ -1,0 +1,294 @@
+body {
+  cursor: default;
+}
+
+.icon-watsapp {
+  position: fixed;
+  z-index: 15;
+  top: 80%;
+  right: 40px;
+}
+
+.top_line {
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 45px 0px 25px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-align: center;
+  border-bottom: 2px solid #e8e8e8;
+}
+
+.common_search_logo_icon {
+  width: 80%;
+  background-color: #f8f8f8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.search {
+  width: 30%;
+}
+
+.search-fm {
+  font-size: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 30px;
+  width: 100%;
+  background-color: transparent;
+}
+
+.search-inp {
+  font-size: 15px;
+  width: 70%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  margin-left: 2%;
+  border: none;
+  background-color: transparent;
+  padding-bottom: 6%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+:focus::-moz-placeholder {
+  color: transparent;
+}
+
+:focus:-moz-placeholder {
+  color: transparent;
+}
+
+:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+.icons {
+  background-color: transparent;
+  padding-bottom: 6%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-top: 5%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.icons:hover {
+  cursor: pointer;
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+.logo {
+  font-size: 55px;
+  font-family: "Yeseva One";
+  font-weight: 600;
+  width: 35%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.logo:hover {
+  cursor: default;
+}
+
+.common-shop-lk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 15%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.shopping-icon {
+  background-color: transparent;
+  padding-bottom: 6%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-top: 5%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.user-lk {
+  background-color: transparent;
+  padding-bottom: 6%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-top: 5%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.icon-shopping {
+  width: 40%;
+  height: 55%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: auto 0px;
+}
+
+.icon-shopping:hover {
+  cursor: pointer;
+}
+
+.icon-user-lk {
+  width: 40%;
+  height: 55%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: auto 0px;
+}
+
+.icon-user-lk:hover {
+  cursor: pointer;
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+.tom-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f8f8f8;
+}
+
+.tom_menu {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.top-menu {
+  list-style-type: none;
+  font-family: "Playfair Display";
+  font-size: 15px;
+  font-weight: 600;
+  padding: 20px 20px;
+  display: block;
+  position: relative;
+  white-space: nowrap;
+}
+
+.top-menu:hover {
+  cursor: default;
+}
+
+.list-sundresses {
+  list-style-type: none;
+}
+
+.top-menu:hover {
+  cursor: pointer;
+}
+
+.common-drop-down-menu {
+  position: absolute;
+  top: 55px;
+  left: 0px;
+  background-color: #f8f8f8;
+  color: black;
+  border-right: 1px solid #bcc4c4;
+  border-left: 1px solid #bcc4c4;
+  border-bottom: 1px solid #bcc4c4;
+  -webkit-box-shadow: 2px 2px 2px 0px #a3c2c2;
+          box-shadow: 2px 2px 2px 0px #a3c2c2;
+  font-size: 15px;
+  text-align: left;
+  z-index: 12;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 200px;
+  display: none;
+}
+
+.top-menu:hover .common-drop-down-menu {
+  display: block;
+}
+
+.common-drop-down-menu li {
+  margin-bottom: 7px;
+  margin: 8px 15px 20px 12px;
+}
+
+.common-drop-down-menu li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.common-list-of-categories {
+  margin: 10px 25px 10px 25px;
+}

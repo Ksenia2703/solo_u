@@ -1,0 +1,665 @@
+body {
+    cursor: default;
+}
+
+.icon-watsapp {
+    position: fixed;
+    z-index: 15;
+    top: 80%;
+    right: 40px;
+}
+
+.scroll-top {
+    position: fixed;
+    z-index: 15;
+    top: 87%;
+    right: 40px;
+}
+
+.top_line {
+    width: 100%;
+    // background-color: rgb(167, 167, 167);
+    background-color: #f8f8f8;
+    padding: 45px 0px 25px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    border-bottom: 2px solid #e8e8e8;
+}
+.common_search_logo_icon {
+    width: 80%;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search {
+    width: 30%;
+}
+
+.search-fm {
+    font-size: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 30px;
+    width: 100%;
+    background-color: transparent;
+}
+
+.search-inp {
+    font-size: 15px;
+    width: 70%;
+    justify-content: start;
+    margin-left: 2%;
+    border: none;
+    background-color: transparent;
+    padding-bottom: 6%;
+    align-items: center;
+}
+:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+:focus::-moz-placeholder {
+    color: transparent;
+}
+:focus:-moz-placeholder {
+    color: transparent;
+}
+:focus:-ms-input-placeholder {
+    color: transparent;
+}
+
+.icons {
+    background-color: transparent;
+    padding-bottom: 6%;
+    align-self: flex-end;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons:hover {
+    cursor: pointer;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: 1s ease-in-out;
+}
+
+.logo {
+    font-size: 55px;
+    font-family: "Yeseva One";
+    font-weight: 600;
+    width: 35%;
+    align-items: center;
+    display: flex;
+    white-space: nowrap;
+}
+.logo:hover {
+    cursor: default;
+}
+
+.common-shop-lk {
+    display: flex;
+    width: 15%;
+    justify-content: flex-start;
+}
+
+.shopping-icon {
+    background-color: transparent;
+    padding-bottom: 6%;
+    align-self: flex-end;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.user-lk {
+    background-color: transparent;
+    padding-bottom: 6%;
+    align-self: flex-end;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.icon-shopping {
+    width: 40%;
+    height: 55%;
+    display: flex;
+    justify-content: flex-end;
+    margin: auto 0px;
+}
+.icon-shopping:hover {
+    cursor: pointer;
+}
+
+.icon-user-lk {
+    width: 40%;
+    height: 55%;
+    display: flex;
+    justify-content: flex-end;
+    margin: auto 0px;
+}
+.icon-user-lk:hover {
+    cursor: pointer;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: 1s ease-in-out;
+}
+
+// строка меню
+
+.tom-menu {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+}
+
+.tom_menu {
+    list-style-type: none;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    // position: relative;
+}
+
+.top-menu {
+    
+    list-style-type: none;
+    font-family: "Playfair Display";
+    font-size: 15px;
+    font-weight: 600;
+    // text-decoration: none;
+    padding: 20px 20px;
+    display: block;
+    position: relative;
+    white-space: nowrap;
+}
+.top-menu:hover {
+    cursor: default;
+}
+
+.list-sundresses {
+    list-style-type: none;
+}
+.top-menu:hover {
+    cursor: pointer;
+}
+
+.common-drop-down-menu {
+    position: absolute;
+    top: 55px;
+    left: 0px;
+    background-color: #f8f8f8;
+    color: black;
+    border-right: 1px solid #bcc4c4;
+    border-left: 1px solid #bcc4c4;
+    border-bottom: 1px solid #bcc4c4;
+    box-shadow: 2px 2px 2px 0px #a3c2c2;
+    // padding: 20px;
+    font-size: 15px;
+    text-align: left;
+    z-index: 12;
+    box-sizing: border-box;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 200px;
+    // border-top-right-radius: 10px;
+    // border-top-left-radius: 10px;
+    display: none;
+}
+
+.top-menu:hover .common-drop-down-menu {
+    display: block;
+}
+
+.common-drop-down-menu li {
+    margin-bottom: 7px;
+    margin: 8px 15px 20px 12px;
+}
+
+.common-drop-down-menu li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+// боковое меню
+.side-menu-and-product-cards {
+    display: flex;
+}
+
+.common-list-of-categories {
+    padding: 0px 25px 0px 25px;
+    font-size: 19px;
+    background-color: #f8f8f8;
+    width: 20%;
+    font-family: "Playfair Display";
+}
+.common-list-of-categories li {
+    padding: 15px 0px 15px 0px;
+    list-style-type: none;
+}
+
+.common-list-of-categories li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+// фото и пояснительная информация
+
+.common-foto-information {
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.common-foto-block {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    // background-color: cadetblue;
+}
+
+.foto-block {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    
+    & img {
+        max-width: 100%;
+        margin-left: 5px;
+        margin-bottom: 10px;
+    }
+}
+
+.foto-block-2 {
+    
+    & img {
+        max-width: 95%;
+        margin: 0px 10px 10px 10px;
+    }
+}
+
+.common-information-block {
+    width: 45%;
+    background-color: rgb(255, 255, 255);
+}
+
+.div-product-title-1 h1 {
+    font-family: "Playfair Display";
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.div-product-title-1 h2 {
+    color: #8b8f92;
+}
+
+.div-price-title {
+    margin: 20px 0px;
+}
+.div-price-title h1 {
+    color: #e4505c;
+    font-family: "Playfair Display";
+    font-size: 20px;
+    font-weight: 700;
+}
+.div-price-title h2 {
+    color: #e4505c;
+    font-family: "Tinos";
+    font-size: 20px;
+    margin-top: 7px;
+}
+
+.common-material-title {
+    margin: 5px 0px;
+}
+
+.common-material-title p {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.common-size-block {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.common-left-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.size-title h1 {
+    font-family: "Tinos";
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.list-size {
+    margin: 20px 0px;
+}
+
+.list-size li:hover {
+    border: 2px solid black;
+}
+
+.list-size li {
+    list-style-type: none;
+    padding: 15px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 2px;
+    font-size: 13px;
+    width: 45px;
+    text-align: center;
+}
+
+.list-size li {
+    cursor: pointer;
+}
+
+.common-right-block {
+    width: 50%;
+}
+
+.size-chart-title {
+    font-family: "Tinos";
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.common-right-block td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.common-right-block table {
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.common-add-to-cart {
+    padding: 35px 0px;
+    border-bottom: 1px solid #8b8b8b;
+    width: 90%;
+}
+
+.block-add-to-cart {
+    background-color: black;
+    width: 210px;
+    border-radius: 4px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.block-add-to-cart:hover {
+    background-color: #f8f8f8;
+}
+
+.text-add-to-cart {
+    font-family: "Tinos";
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+    padding: 15px 0px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.text-add-to-cart:hover {
+    color: black;
+}
+
+.parameters-models-in-the-photo h1 {
+    font-size: 18px;
+    font-family: "Tinos";
+    color: #424446;
+    font-weight: 600;
+    margin: 15px 0px;
+}
+
+.parameters-models-in-the-photo p {
+    font-size: 16px;
+    font-family: "Tinos";
+    color: #424446;
+    margin: 5px 0px;
+}
+
+.parameters-models-in-the-photo {
+    padding: 20px 0px 35px 0px;
+    border-bottom: 1px solid #8b8b8b;
+    width: 90%;
+}
+
+.common-delivery-block {
+    margin-top: 30px;
+    width: 90%;
+    // background-color: aquamarine;
+    padding-bottom: 60px;
+}
+
+.delivery-title-product span {
+    font-size: 16px;
+    font-family: "Tinos";
+    border-bottom: 1px dashed;
+    padding-bottom: 5px;
+}
+
+.delivery-in-moscow {
+    font-size: 16px;
+    font-family: "Tinos";
+    font-weight: 600;
+    display: none;
+}
+
+.delivery-title-product:hover {
+    cursor: pointer;
+}
+
+.delivery-in-moscow h1 {
+    font-weight: 600;
+    font-size: 15px;
+    font-family: "Tinos";
+    margin-top: 20px;
+}
+
+.show-info {
+    display: block;
+}
+
+.delivery-in-moscow p {
+    padding: 5px 0px;
+    font-size: 14px;
+}
+
+.payment-title {
+    margin-top: 20px;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    & span {
+        font-size: 16px;
+        font-family: "Tinos";
+        border-bottom: 1px dashed;
+        padding-bottom: 5px;
+    }
+}
+
+.payment-in-moscow {
+    font-size: 16px;
+    font-family: "Tinos";
+    font-weight: 600;
+    margin-top: 20px;
+    display: none;
+
+    & h1 {
+        font-weight: 600;
+        font-size: 15px;
+        font-family: "Tinos";
+        margin-top: 40px;
+    }
+
+    & {
+        padding: 5px 0px;
+        font-size: 14px;
+    }
+}
+
+//  возможно вам понравится 
+
+.common-maybe-you-will-like-it {
+    border-top: 1px solid #000000;
+    margin-top: 20px;
+    margin-left: 40px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 94%;
+}
+
+.title-maybe-you-will-like-it {
+    font-size: 16px;
+    font-family: "Tinos";
+    font-weight: 600;
+    padding: 15px 30px;
+    background-color: white;
+    position: absolute;
+    top: -21px;
+    text-align: center;
+    
+}
+
+.common-card-recomend {
+    // background-color: yellowgreen;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-1-recomend {
+    width: 20%;
+    margin-top: 60px;
+
+    & img {
+        max-width: 100%;
+    }
+}
+
+.title-card-1-recomend {
+    font-size: 14px;
+    font-family: "Tinos";
+    font-weight: 600;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.price-card-1-recomend {
+    font-size: 14px;
+    font-family: "Tinos";
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+}
+
+// подвал
+
+.common-footer-desktop {
+    width: 100%;
+    display: flex;
+    height: 270px;
+    background-color: #f8f8f8;
+}
+
+.footer-desktop-logo {
+    font-size: 55px;
+    font-family: "Yeseva One";
+    font-weight: 600;
+    width: 40%;
+    margin: 50px 0px;
+    display: flex;
+    justify-content: center;
+    width: 25%;
+}
+
+.footer-desktop-logo:hover{
+    cursor: default;
+}
+
+.footer-desktop-logo:hover {
+    cursor: default;
+}
+
+
+.common-stores-and-customers {
+    width: 40%;
+    background-color: transparent;
+    margin: 50px 0px;
+    display: flex;
+    flex-direction:row;
+}
+
+.common-shop {
+    width: 50%;
+    background-color: transparent;
+    margin-left: 20px;
+}
+
+.shop-title {
+    font-family: "Yeseva One";
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.li-catalog {
+    margin: 15px 0px;
+    list-style-type: none;
+    opacity: 0.5;
+    font-size: 17px;
+}
+
+.li-catalog:hover {
+    cursor: pointer;
+}
+
+.common-online-store {
+    width: 30%;
+    margin: 50px 0px 50px 70px;
+}
+
+.title-online-store {
+    font-family: "Yeseva One";
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.operating-mode {
+    opacity: 0.5;
+    font-size: 15px;
+    margin: 15px 0px;
+    font-family: "Yeseva One";
+}
+
+.contact-phone-number {
+    font-family: 'Tinos';
+    font-weight: 600;
+    font-size: 20px;
+    margin: 25px 0px;
+}
+
+
+.write-to-us {
+    text-decoration: underline;
+    font-size: 17px;
+    margin: 15px 0px;
+    font-family: 'Tinos';
+}
+
